@@ -1,0 +1,107 @@
+#menu {
+    width: 150px !important;
+}
+
+#content {
+    margin-left: 180px !important;
+    margin-right: 5px !important;
+    margin-top: 0px !important;
+    margin-bottom: 50px !important;
+}
+
+input.text {
+    border: 1px solid #cccccc;
+    padding: 1px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    height: 16px;
+}
+
+input.submit {
+    border: 1px solid #005069;
+    padding: 0px 2px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 12px;
+    vertical-align: top;
+}
+
+textarea {
+    border: 1px solid #cccccc;
+    padding: 3px;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+
+ul {
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: square;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+a {
+    color: #0099cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.alt {
+    color: white;
+    text-decoration: underline;
+}
+
+a.alt:hover {
+    color: yellow;
+}
+
+h1 {
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 3px 0px 3px 10px;
+}
+
+p {
+    font-size: 11px;
+    margin: 0px 10px 10px 10px;
+}
+
+pre {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    white-space: pre;
+    overflow: auto;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+
+.paste-meta {
+    font-size: 10px;
+    padding: 3px;
+    margin: 3px 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+th {
+    font-weight: bold;
+}

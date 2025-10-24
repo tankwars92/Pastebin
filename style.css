@@ -1,0 +1,218 @@
+body {
+    color: #333333;
+    background-color: #C0C0C0;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+}
+
+h1 {
+    border-top: 1px solid #3d8ea8;
+    border-bottom: 1px solid #005069;
+    border-right: 1px solid #3d8ea8;
+    border-left: 1px solid #3d8ea8;
+    background-color: #006b8c;
+    color: #ffffff;
+    font-family: trebuchet ms, verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    padding: 3px 0px 3px 10px;
+    margin-bottom: 0px;
+    margin-top: 0px; 
+}
+
+p {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+a {
+    color: #0099cc;
+    font-size: 11px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:link { 
+    color: #0099cc; 
+}
+
+a:visited { 
+    color: #0077aa; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+  
+a.alt {
+    color: white; 
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+a.alt:link { 
+    color: white; 
+}
+
+a.alt:visited { 
+    color: white; 
+}
+
+a.alt:hover { 
+    color: yellow; 
+    background-color: transparent; 
+}
+
+code { 
+    font-size: 12px;
+    font-family: "Courier New", monospace;
+    background-color: #f0f0f0;
+    padding: 2px;
+    border: 1px solid #cccccc;
+}
+
+pre {
+    font-size: 12px;
+    font-family: "Courier New", monospace;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 10px 0px;
+    overflow: auto;
+    white-space: pre;
+}
+
+.codeedit { 
+    font-size: 12px;
+    font-family: "Courier New", monospace;
+}
+
+#titlebar {
+    padding: 0px 0px 0px 5px;
+    height: 16px;
+    border-top: solid 1px #73a5d3;
+    border-bottom: solid 1px #39526b;
+    background-color: #006b8c;
+    color: #ffffff;
+    width: 100%; 
+    margin-bottom: 11px;
+}
+
+.nav { 
+    margin: 0px 5px 0px 5px; 
+}
+    
+li.highlight { 
+    background-color: #ccccff; 
+}
+
+ul {
+    margin-left: 15px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: square;
+    line-height: 11px;
+    padding-bottom: 3px;
+}
+
+#menu {
+    position: absolute;
+    top: 27px;
+    left: 10px;
+    width: 150px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    line-height: 17px;
+}
+
+#content {
+    margin: 0px 5px 50px 180px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+form {
+    margin: 10px 0px;
+}
+
+input {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+}
+
+input.text {
+    border: 1px solid #cccccc;
+    padding: 2px;
+}
+
+input.submit {
+    background-color: #006b8c;
+    color: white;
+    border: 1px solid #005069;
+    padding: 0px 2px;
+    cursor: pointer;
+    font-size: 11px;
+    height: 16px;
+    line-height: 12px;
+    vertical-align: top;
+}
+
+input.submit:hover {
+    background-color: #0088aa;
+}
+
+textarea {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.paste-meta {
+    background-color: #e8e8e8;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+@media screen {
+    body {
+        font-size: 11px;
+    }
+}
+
+pre {
+    white-space: pre;
+}
+
+pre {
+    word-wrap: normal;
+}

@@ -1,0 +1,105 @@
+* html #menu {
+    width: 150px;
+}
+
+* html #content {
+    margin-left: 180px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+* html body {
+    font-size: 11px;
+}
+
+* html h1 {
+    font-size: 11px;
+}
+
+* html a {
+    font-size: 11px;
+}
+
+* html p {
+    font-size: 11px;
+}
+
+* html input.text {
+    border: 1px solid #cccccc;
+    padding: 1px;
+    height: 16px;
+}
+
+* html input.submit {
+    border: 1px solid #005069;
+    padding: 0px 2px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 12px;
+    vertical-align: top;
+}
+
+* html textarea {
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+* html ul {
+    margin-left: 15px;
+    padding-left: 0px;
+}
+
+* html li {
+    list-style-type: square;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+* html a {
+    color: #0099cc;
+    text-decoration: none;
+}
+
+* html a:hover {
+    text-decoration: underline;
+}
+
+* html a.alt {
+    color: white;
+    text-decoration: underline;
+}
+
+* html a.alt:hover {
+    color: yellow;
+}
+
+* html pre {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    white-space: pre;
+}
+
+* html code {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+
+* html .paste-meta {
+    font-size: 10px;
+    padding: 3px;
+    margin: 3px 0px;
+}
+
+* html table {
+    border-collapse: collapse;
+}
+
+* html th, * html td {
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+* html th {
+    font-weight: bold;
+}
