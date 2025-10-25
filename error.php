@@ -24,7 +24,8 @@ $error_message = isset($error_messages[$error]) ? $error_messages[$error] : 'Unk
 </head>
 
 <body>
-<div id="titlebar">php pastebin - collaborative irc debugging</div>
+<div id="titlebar">php pastebin - collaborative irc debugging <a href="https://github.com/tankwars92/Pastebin/" class="alt">view php source</a>
+</div>
 
 <div id="content">
 <h1>Error</h1>

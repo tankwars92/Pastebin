@@ -29,7 +29,7 @@ If you see this paragraph, your browser does not support those standards and you
 need to upgrade.  Visit <a href="http://www.webstandards.org/upgrade/" target="_blank">WaSP</a>
 for a variety of options.</p>
 
-<div id="titlebar">php pastebin - collaborative irc debugging
+<div id="titlebar">php pastebin - collaborative irc debugging <a href="https://github.com/tankwars92/Pastebin/" class="alt">view php source</a>
 </div>
 
 <div id="menu">
