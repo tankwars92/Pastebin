@@ -72,7 +72,7 @@ for a variety of options.</p>
 <h1>Recent Posts</h1>
 <ul>
 <?php foreach ($recent_pastes as $recent_paste): ?>
-<li><a href="paste.php?id=<?php echo $recent_paste['id']; ?>"<?php echo ($recent_paste['id'] == $paste_id) ? ' class="highlight"' : ''; ?>><?php echo htmlspecialchars($recent_paste['poster']); ?></a><br>
+<li><a href="paste.php?id=<?php echo $recent_paste['id']; ?>"<?php echo ($recent_paste['id'] == $paste_id) ? ' class="highlight"' : ''; ?>><?php $s = $recent_paste['poster']; echo (mb_strlen($s) > 10 ? htmlspecialchars(mb_substr($s,0,10)).'…' : htmlspecialchars($s)); ?></a><br>
 <?php 
 $time_ago = time() - strtotime($recent_paste['created_at']);
 

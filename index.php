@@ -36,7 +36,7 @@ for a variety of options.</p>
 <h1>Recent Posts</h1>
 <ul>
 <?php foreach ($recent_pastes as $paste): ?>
-<li><a href="paste.php?id=<?php echo $paste['id']; ?>"><?php echo htmlspecialchars($paste['poster']); ?></a><br>
+<li><a href="paste.php?id=<?php echo $paste['id']; ?>"><?php $s = $paste['poster']; echo (mb_strlen($s) > 10 ? htmlspecialchars(mb_substr($s,0,10)).'…' : htmlspecialchars($s)); ?></a><br>
 <?php 
 $time_ago = time() - strtotime($paste['created_at']);
 
